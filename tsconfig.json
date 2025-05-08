@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+    "module": "NodeNext",//option for modern Node.js environments that use ES Modules (ESM)
+    "moduleResolution": "NodeNext",//Helps TypeScript resolve modules in the same way Node.js does
+    "baseUrl": "src",//When you import modules in your code, TypeScript will look for them relative to the src folder
+    "outDir": "dist",//After TypeScript compiles the .ts files, it will put the output JavaScript files in the dist folder, keeping your source code clean in the src folder
+    "sourceMap": true,//debug the original TypeScript code directly in the browser or your development tools
+    "noImplicitAny": true,//Ensures that you cannot use the any type implicitly (i.e., TypeScript will throw an error if it cannot infer the type of a variable).
+    },
+    "include": ["src/**/*"],
+    }
